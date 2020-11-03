@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8">
+<title>page layout of home page</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+p{color:#8B008B;font-size:30px }
+h1{font-family: "Comic Sans MS",sans-serif; text-align:center; font-size:55px; color:#CD5C5C; border:10px solid black; background-image:url(logobg1.jpg); background-size:cover;}
+.container{max-width:1300px; margin:auto; padding-left:25px; padding-right:25px;}
+h2,h3{color:#8B008B; border: 5px outset #E6FFCC; display: inline-block;}
+body{background-color:#FFCCCC;}
+.row{display:flex; align-items: centre; flex wrap: wrap; justify-content: space-around;}
+.col-2{flex-basis: 50%; min-width: 300px;}
+.col-2 img{max-width:100%; padding:30px o;}
+h1 {font-family: "Comic Sans MS", cursive, sans-serif;}
+.footer{ left: 0;bottom:0; height: 75%; width: 100%; background-color:#ADD8E6; color: black; text-align: center;font-size:25px; text-decoration:none;}
+.disclaimer{ left: 0;bottom:0; height: 75%; width: 100%; background-color:#CCCCCC; color:black; text-align: center; font-size:20px;}
+nav{background:#ADD8E6; width:100%; overflow:auto; position: sticky;top: 0;}
+ul{margin:0; padding:0; list-style:none;}
+li{float:left;}
+nav a{width:120px; display:block; text-decoration:none; text-allign:center; background:#ADD8E6; font-size:17px; color:#2F4F4F; padding:20px 10px; font family:Arial; text-decoration:none;}
+nav a:hover{background:#FF9999; color:black;}
+.fa {padding: 20px;font-size: 30px;width: 50px;text-align: center; text-decoration: none;margin: 5px 2px;}
+.fa-facebook {background: #3B5998;color: white;}
+.fa-twitter {background: #55ACEE;color: white;}
+.fa-instagram {background:#f40083; color: white;}
+.box{display:block; float:left;width:20%;}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="logo"><img src="babylogo.png"  height="97" width="200" align="left" >
+</div>
+<h1>  Baby Time</h1>
+<nav><ul>
+<li><a href="index.html"> New Arrivals</a></li><li><a href="index.html">Baby Girl</a></li><li><a href="index.html"> Baby Boy</a></li><li><a href="index.html">Accessories</a></li><li><a href="index.html"> Brands</a></li><li><a href="index.html"> Sale </a></li><li><a href="index.html"> Toys</a></li>
+</ul></nav>
+<div class="row">
+<div class="col-2"><img src="halloweenlogo.png" alt="halloween banner" width="700" height="400"></div>
+<div class="col-2"><img src="banner.png" alt="diwali banner" width="700" height="400"></div></div>
+
+<table border="0" width="100%" bgcolor=#E6E6FA>
+<tr>
+<p><b>Shop by Category</b></p><hr><hr>
+<h2>Clothings</h2><br>
+<h3>Baby Girl</h3><br>
+<div class="box"><a href="index.html"><image src="baby girl dresses.jpg" alt="Dresses" height="150" width="180" ></a><figcaption><a href="index.html">Dresses </a></figcaption></div>
+<div class="box"><a href="index.html"><image src="baby-girl-top.jpg" alt="Tops" height="150" width="180"  ></a><figcaption><a href="index.html">Tops</a></figcaption></div>
+<div class="box"><a href="index.html"><image src="baby girl winter wear.jpg" alt="Winter Wear"height="150" width="180" ></a><figcaption><a href="index.html">Winter Wear</a></figcaption></div>
+<div class="box"><a href="index.html"><image src="baby girl jeans and leggings.jpg" alt="Jeans" height="150" width="180"></a><figcaption><a href="index.html">Jeans</a></figcaption></div>
+<div class="box"><a href="index.html"><image src="baby girl suits.jpg" alt="Sets and Suits" height="150" width="180"></a><figcaption><a href="index.html">Sets and Suits</a></figcaption></div>
+<br>
+<h3>Baby Boy</h3><br>
+<div class="box"><a href="index.html"><image src="t-shirts baby boy.jpg" alt="T-shirts" height="150" width="180"></a><figcaption><a href="pagelayout.html">T-shirts </a></figcaption></div>
+<div class="box"><a href="index.html"><image src="suits for baby boy.jpg" alt="Sets and Suits" height="150" width="180"></a><figcaption><a href="pagelayout.html">Sets and Suits</a></figcaption></div>
+<div class="box"><a href="index.html"><image src="jeans for baby boy.jpg" alt="Jeans " height="150" width="180"></a><figcaption><a href="index.html">Jeans </a></figcaption></div>
+<div class="box"><a href="index.html"><image src="boy winter wear.jpg" alt="Winter Wear" height="150" width="180"></a><figcaption><a href="index.html">Winter Wear</a></figcaption></div>
+<div class="box"><a href="index.html"><image src="boys-shorts.jpg" alt="Shorts" height="150" width="180"></a><figcaption><a href="index.html">Shorts</a></figcaption></div>
+<br>
+<h2>Toys</h2><br>
+<div class="box"><a href="index.html"><image src="squeeze toys.jpg" alt="Squeeze Toys" height="150" width="180"></a><figcaption><a href="index.html">Squeeze Toys</a></figcaption></div>
+<div class="box"><a href="index.html"><image src="soft doll.jpg" alt="Soft Dolls" height="150" width="180"></a><figcaption><a href="index.html">Soft Dolls</a></figcaption></div>
+<div class="box"><a href="index.html"><image src="textured balls.jpg" alt="Textured Balls" height="150" width="180"></a><figcaption><a href="index.html">Textured Balls</a></figcaption></div>
+<div class="box"><a href="index.html"><image src="teething toys.jpg" alt="Teething Toys" height="150" width="180"></a><figcaption><a href="index.html">Teething Toys</a></figcaption></div>
+<div class="box"><a href="index.html"><image src="bath toys.jpg" alt="Bath Toys" height="150" width="180"></a><figcaption><a href="index.html">Bath Toys</a></figcaption></div><br>
+<br>
+<h2>Accessories</h2><br>
+<div class="box"><a href="index.html"><image src="babybath.jpg" alt="Bath and Skin Care" height="150" width="180"></a><figcaption><a href="pagelayout.html">Bath and Skin Care</a></figcaption></div>
+<div class="box"><a href="index.html"><image src="nursery.jpg" alt="Nursery" height="150" width="180"></a><figcaption><a href="index.html">Nursery</a></figcaption></div>
+<div class="box"><a href="index.html"><image src="travel.jpg" alt="Travel" height="150" width="180"></a><figcaption><a href="index.html">Travel</a></figcaption></div>
+<div class="box"><a href="index.html"><image src="footwear.jpg" alt="Footwear" height="150" width="180"></a><figcaption><a href="index.html">Footwear</a></figcaption></div>
+<div class="box"><a href="index.html"><image src="health essentials.jpg" alt="Health Essentials" height="150" width="180"></a><figcaption><a href="index.html">Health Essentials</a></figcaption></div>
+
+<br>
+
+
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-instagram"></a>
+
+<div class="footer"><div class="logo">
+</div><a href="index.html">About Us</a><br><a href="index.html">Contact Us </a><br><a href="index.html">Help Centre </a><br><a href="index.html">Returns and Exchange</a><br><a href="index.html"> Terms and Conditions</a></div>
+
+<div class="disclaimer"><p1><u>Disclaimer:</u><br>
+"This is a project of CIS 145 , Web Publishing Course in UFV, Instructed and requested by Professor Lili Saghafi"</p1>
+</div>
+</div></body></html>
